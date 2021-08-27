@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    background-color: #F0D9FF;
+    font-family: 'Philosopher', sans-serif;
+}
+button{
+    display: inline-block;
+    height: 30px;
+    margin-left: 0;
+    background-color: #F0D9FF;
+    border-radius: 0px;
+}
+button:hover{
+    background-color: #7F7C82;
+}
+input{
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    border: none;
+    background-color: #F0D9FF;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+} 
+li{
+    float: left;
+} 
+li a{
+    display: block;
+    color: purple;
+    text-align: center;
+    padding: 5px 15px;
+    text-decoration: none;
+} 
+li a:hover{
+    background-color: #7F7C82;
+}
+.action{
+    background-color: #9775b6;
+}
+.brand{
+    float: left;
+    margin-right: 10px;
+}
+.contain-line{
+    margin: 0px;
+}
+.img1{
+    width: 400px;
+    display: inline-block;
+    margin-right: 50px;
+}
+.logo{
+    position: relative;
+    border-radius: 50%;
+    width: 50px;
+    background-color: #7F7C82;
+}
+.navbar{
+    float: left;
+}
+.paragraph-1{
+    display: inline-block;
+}
+.search-box{
+    display: inline-block;
+}
+.search-container{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+.top-page{
+    font-family: 'Teko';
+    font-size: 30px;
+    background-color: #BFA2DB;
+    overflow: hidden;
+}
